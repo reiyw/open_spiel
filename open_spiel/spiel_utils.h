@@ -135,7 +135,7 @@ std::string SpielStrCat(Args&&... args) {
 }  // namespace internal
 
 using Player = int;
-using Action = int64_t;
+using Action = int;
 
 // Floating point comparisons use this as a multiplier on the larger of the two
 // numbers as the threshold.
